@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DXTools"
-  s.version      = "0.0.1"
+  s.version      = "v0.0.1"
   s.summary      = "本地持久化方法的简单封装"
 
   # This description is used to generate tags and improve search results.

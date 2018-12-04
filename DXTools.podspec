@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
 
   s.name         = "DXTools"
@@ -14,7 +13,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/Flum-X/DXTools.git", :tag => "0.0.1"}
-  s.source_files  = "Tools/*"
+
+  s.source_files  = "Tools/*.{h,m}"
 
   s.requires_arc = true
 
